@@ -3,3 +3,16 @@ business:
     name: "Business Development Mode"
     description: "Business API"
     version: "1.0.0"
+
+server:
+  port: 8081
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/yelpdb
+    username: postgres
+    password: 123456
