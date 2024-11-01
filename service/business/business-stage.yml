@@ -1,0 +1,5 @@
+business:
+  info:
+    name: "Business Stage"
+    description: "Business API"
+    version: "1.0.0"
