@@ -1,0 +1,7 @@
+server:
+  port: 8086
+  
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mengseu:123@34.50.93.104:1690/notification

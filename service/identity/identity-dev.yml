@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+  datasource:
+    url: jdbc:postgresql://34.50.93.104:5432/oauth2
+    username: mengseu
+    password: 123
+    driver-class-name: org.postgresql.Driver
