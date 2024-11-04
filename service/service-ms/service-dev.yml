@@ -1,0 +1,12 @@
+server:
+  port: 8083
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://34.50.93.104:5431/service
+    username: mengseu
+    password: 123
