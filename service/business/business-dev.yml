@@ -13,6 +13,7 @@ spring:
       ddl-auto: create-drop
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/love
+    url: jdbc:postgresql://34.50.93.104:5431/business
     username: postgres
     password: 123456
+
