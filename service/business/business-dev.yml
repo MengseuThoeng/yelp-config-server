@@ -7,11 +7,11 @@ business:
 server:
   port: 8081
 
-spring:
-  jpa:
+
+spinrg.jpa:
     hibernate:
-      ddl-auto: create-drop
-  datasource:
+      ddl-auto: update
+spring.datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://34.50.93.104:5431/business
     username: mengseu
