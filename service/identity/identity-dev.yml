@@ -35,8 +35,8 @@ spring.security:
 
 spring.datasource:
   url: jdbc:postgresql://34.50.93.104:5430/blog-oauth2-db
-  username: postgres
-  password: 123456
+  username: mengseu
+  password: 123
   driver-class-name: org.postgresql.Driver
 
 server:
