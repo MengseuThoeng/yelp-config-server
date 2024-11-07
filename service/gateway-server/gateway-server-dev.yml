@@ -1,3 +1,6 @@
 server:
   port: 8168
 
+
+
+seu.gateway: "http://hello-service:8081"
