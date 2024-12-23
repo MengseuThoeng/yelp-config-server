@@ -6,9 +6,9 @@ spring:
     hibernate:
       ddl-auto: create-drop
   datasource:
-    url: jdbc:postgresql://34.101.39.118:5430/oauth2
-    username: mengseu
-    password: 123
+    url: jdbc:postgresql://localhost:5430/oauth2
+    username: postgres
+    password: 123456
     driver-class-name: org.postgresql.Driver
   servlet:
     multipart:
